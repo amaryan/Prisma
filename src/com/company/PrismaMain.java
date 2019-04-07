@@ -18,6 +18,7 @@ public class PrismaMain {
         System.out.println("================================================================");
         System.out.println("CREANDO OBJETO PRISMA......");
         System.out.println("================================================================");
+        System.out.println("PRISMA CREADO CON EXITO....");
 
         createPrisma();
         sortPrisma();
@@ -35,7 +36,7 @@ public class PrismaMain {
      */
     private static void showAllBaseAreaList() {
         for (Float x : prismList) {
-            System.out.println("prisma nª: " + prismList.indexOf(x) + " tiene el area total de: " + x);
+            System.out.println("Prisma nª: " + prismList.indexOf(x) + " tiene el area total de: " + x);
         }
     }
 
